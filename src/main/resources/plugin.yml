@@ -1,0 +1,4 @@
+name: MobileFunctionBlocks
+version: '${project.version}'
+main: org.hukm.mobilefunctionblocks.MobileFunctionBlocks
+api-version: '1.20'
