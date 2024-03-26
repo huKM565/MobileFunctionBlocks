@@ -1,8 +1,8 @@
-package org.hukm.mobilefunctionblocks.mobilefunctionblock;
+package org.hukm.mobilefunctionblocks;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import org.hukm.mobilefunctionblock.events.rightClickEvent;
-import org.hukm.mobilefunctionblock.сommands.giveMobileItems;
+import org.hukm.mobilefunctionblocks.events.rightClickEvent;
+import org.hukm.mobilefunctionblocks.сommands.giveMobileItems;
 
 public final class MobileFunctionBlock extends JavaPlugin {
 
@@ -22,6 +22,5 @@ public final class MobileFunctionBlock extends JavaPlugin {
     public static MobileFunctionBlock getInstance() {
         return plugin;
     }
-
 
 }

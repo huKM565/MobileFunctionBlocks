@@ -1,13 +1,14 @@
-package org.hukm.mobilefunctionblocks.mobilefunctionblock.functionItems;
+package org.hukm.mobilefunctionblocks.functionItems;
 
-import org.bukkit.inventory.ItemStack;
-import org.hukm.mobilefunctionblock.utils.giveCustomClock;
+import net.md_5.bungee.api.ChatColor;
+import org.hukm.mobilefunctionblocks.utils.functionItem;
 
 public class enderChest {
 
-    static ItemStack item = giveCustomClock.getItem(1000, "enderChest");
+    static String type = "enderChest";
+    static String name = ChatColor.BLUE + "Корманный эндер-сундук";
+    static int customModelData = 1001;
 
-    public static ItemStack getItem() {
-        return item;
-    }
+    public static functionItem FunctionItem = new functionItem(customModelData, type, name);
+
 }

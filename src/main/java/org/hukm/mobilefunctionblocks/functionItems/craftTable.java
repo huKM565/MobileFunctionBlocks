@@ -1,14 +1,14 @@
-package org.hukm.mobilefunctionblocks.mobilefunctionblock.functionItems;
+package org.hukm.mobilefunctionblocks.functionItems;
 
-import org.bukkit.inventory.ItemStack;
-import org.hukm.mobilefunctionblock.utils.giveCustomClock;
+import net.md_5.bungee.api.ChatColor;
+import org.hukm.mobilefunctionblocks.utils.functionItem;
 
 public class craftTable {
 
-    static ItemStack item = giveCustomClock.getItem(1001, "craftTable");
+    static String type = "craftTable";
+    static String name = ChatColor.YELLOW + "Корманный верстак";
+    static int customModelData = 1000;
 
-    public static ItemStack getItem() {
-        return item;
-    }
+    public static functionItem FunctionItem = new functionItem(customModelData, type, name);
 
 }

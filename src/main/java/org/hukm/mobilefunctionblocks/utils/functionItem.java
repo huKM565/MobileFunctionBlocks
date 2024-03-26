@@ -1,7 +1,6 @@
-package org.hukm.mobilefunctionblocks.functionItems;
+package org.hukm.mobilefunctionblocks.utils;
 
 import org.bukkit.inventory.ItemStack;
-import org.hukm.mobilefunctionblocks.utils.giveCustomClock;
 
 public class functionItem {
 

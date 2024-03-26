@@ -1,0 +1,8 @@
+org\hukm\mobilefunctionblocks\сommands\giveMobileItems.class
+org\hukm\mobilefunctionblocks\MobileFunctionBlock.class
+org\hukm\mobilefunctionblocks\utils\functionItem.class
+org\hukm\mobilefunctionblocks\functionItems\enderChest.class
+org\hukm\mobilefunctionblocks\events\rightClickEvent.class
+org\hukm\mobilefunctionblocks\functionItems\smithingTable.class
+org\hukm\mobilefunctionblocks\functionItems\craftTable.class
+org\hukm\mobilefunctionblocks\utils\giveCustomClock.class
